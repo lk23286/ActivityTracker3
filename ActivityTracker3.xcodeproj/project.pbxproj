@@ -11,6 +11,7 @@
 		85676CD42A15282E009D1566 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85676CD32A15282E009D1566 /* ContentView.swift */; };
 		85676CD62A152830009D1566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85676CD52A152830009D1566 /* Assets.xcassets */; };
 		85676CD92A152830009D1566 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85676CD82A152830009D1566 /* Preview Assets.xcassets */; };
+		85676CE12A152EEC009D1566 /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85676CE02A152EEC009D1566 /* Activities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		85676CD32A15282E009D1566 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		85676CD52A152830009D1566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85676CD82A152830009D1566 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85676CE02A152EEC009D1566 /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		85676CD02A15282E009D1566 /* ActivityTracker3 */ = {
 			isa = PBXGroup;
 			children = (
+				85676CDF2A152EAB009D1566 /* Models */,
 				85676CD12A15282E009D1566 /* ActivityTracker3App.swift */,
 				85676CD32A15282E009D1566 /* ContentView.swift */,
 				85676CD52A152830009D1566 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				85676CD82A152830009D1566 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85676CDF2A152EAB009D1566 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				85676CE02A152EEC009D1566 /* Activities.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				85676CD42A15282E009D1566 /* ContentView.swift in Sources */,
 				85676CD22A15282E009D1566 /* ActivityTracker3App.swift in Sources */,
+				85676CE12A152EEC009D1566 /* Activities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +282,7 @@
 				DEVELOPMENT_TEAM = 4LR58F43S2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +312,7 @@
 				DEVELOPMENT_TEAM = 4LR58F43S2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
